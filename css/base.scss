@@ -1,0 +1,152 @@
+$header-nav-color: #962D3E;
+$photo-background-color: #343642;
+$accent-color: #343642;
+$light-color: #979C9C;
+$bright-accent-color: #F2EBC7;
+$secondary-accent-color: #348899;
+$font-family: Tahoma, Verdana, Segoe, sans-serif;
+
+body {
+  background: $light-color;
+  margin: 0;
+  padding: 0;
+  font-family: $font-family;
+}
+header {
+  background: $header-nav-color;
+  height: 75px;
+  width: 100%;
+  margin: 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  color: $accent-color;
+  font-size: 50px;
+  text-align: center;
+  margin: 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.home {
+  width: 100%;
+}
+
+.home-albums {
+  width: 70%;
+  margin-left: 20%;
+  margin-right: 10%;
+}
+
+.third {
+  width: 28%;
+  display: inline-block;
+}
+
+.image-wrap {
+  border: 2px solid $bright-accent-color;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+
+.image-wrap img {
+  width: 100%;
+}
+
+.image-wrap p {
+  text-align: center;
+  margin: 0;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+aside {
+  width: 25%;
+  background: $header-nav-color;
+  display: inline-block;
+  float: left;
+}
+
+.vertical-nav li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: $accent-color;
+}
+
+.half {
+  width: 25%;
+  display: inline-block;
+  float: right;
+  margin-right: 8%;
+}
+
+h2 {
+  color: $header-nav-color;
+  font-size: 42px;
+  text-align: center;
+}
+
+nav {
+  display: block;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+nav li {
+  padding: 15px;
+}
+
+nav a {
+  padding: 5px;
+}
+
+nav a:hover {
+  border: 2px solid $bright-accent-color;
+}
+
+.activeNav {
+  border: 2px solid $bright-accent-color;
+}
+
+.ind-photo-background {
+  background: $photo-background-color;
+  height: 600px;
+  width: 100%;
+  margin-bottom: 85px;
+  margin-top: 60px;
+  h2 {
+    color: $secondary-accent-color;
+    margin: 0;
+    padding-bottom: 15px;
+  }
+  a {
+    color: $header-nav-color;
+    margin-top: 10px;
+    padding: 10px;
+    background: $light-color;
+    border: 2px solid $header-nav-color;
+  }
+
+  img {
+    width: 35%;
+    display: block;
+    margin: 0 auto;
+  }
+  div {
+    padding: 25px;
+  }
+}
+
+article, .home, aside {
+  display: none;
+}
+
+.active {
+  display: block;
+}
